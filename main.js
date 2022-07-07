@@ -3,7 +3,7 @@
 let ingresarNumero = parseInt(prompt('Ingrese su edad'));
 
 
-for(let i = 0; i < 18; i++){
+for(let i = 0; i <= 18; i++){
       let edad = ingresarNumero + i;
       alert("tu edad es: " + edad + " años");
   }
@@ -11,7 +11,7 @@ for(let i = 0; i < 18; i++){
 const mayorDeEdad = 18;
 
 if(mayorDeEdad >= 18){
-    document.write("Ya sos mayor de edad!!!");    
+    document.write("Felicitaciones, ya sos mayor de edad!!!");    
 }
 
   
